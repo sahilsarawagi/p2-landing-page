@@ -25,6 +25,7 @@ body {
     
 }
 
+
 footer {
     background-color: #1F2937 ;
     height: 70px;
@@ -94,4 +95,49 @@ a {
     font-size: 24px;
     font-weight: bold;
     padding-right: 50px;
+}
+
+.call-to-action-section {
+    /* border: 2px solid; */
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.call-to-action-box {
+    display: flex;
+    height: 15vh;
+    width: 110vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    /* border: 2px solid; */
+    border-radius: 12px;
+
+}
+.call-to-action-btn {
+    background-color: #3882F6;
+    width: 130px;
+    height: 40px;
+    border-radius: 12px;
+    border: 2px solid;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    
+}
+
+.call-to-action-text1 {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.call-to-action-text2 {
+    font-size: 18px;
+    color: #F9FAF8;
+    margin-top: 0px;
+    font-weight: lighter;
 }
